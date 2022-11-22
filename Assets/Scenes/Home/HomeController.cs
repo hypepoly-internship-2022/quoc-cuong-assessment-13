@@ -11,4 +11,9 @@ public class HomeController : Controller
     {
         return HOME_SCENE_NAME;
     }
+
+    public void OnVoteButtonTap()
+    {
+        Manager.Add(PopupVoteController.POPUPVOTE_SCENE_NAME, "PopupVote");
+    }
 }

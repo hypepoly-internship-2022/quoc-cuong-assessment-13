@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 366582183845177334}
   - component: {fileID: 4135685903072426370}
   - component: {fileID: 8111868574790475180}
+  - component: {fileID: 7148227980203046824}
   m_Layer: 5
   m_Name: BtnPlay
   m_TagString: Untagged
@@ -264,6 +265,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mySound: {fileID: 366582183845177334}
   onClickBtn: {fileID: 8300000, guid: df61aad4bc776a34ea04b70575c6815f, type: 3}
+--- !u!114 &7148227980203046824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2008098469031433140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff500f07ca7e8284e83f086e464f062e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Canvas: {fileID: 0}
+  m_Camera: {fileID: 0}
+  FullScreen: 0
+  Animation: {fileID: 0}
 --- !u!1 &5766224631190571168
 GameObject:
   m_ObjectHideFlags: 0

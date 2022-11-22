@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Loading/Main.unity
-    guid: e69efef5336a92c4a83766af5ca3c7c3
-  - enabled: 1
     path: Assets/Scenes/Home/Home.unity
     guid: 57dab9cfaa894f44482774725d794aa8
   - enabled: 1
     path: Assets/Scenes/Main/Main.unity
     guid: 952171d2113529249ab6f05a6433e079
+  - enabled: 1
+    path: Assets/Scenes/PopupVote/PopupVote.unity
+    guid: 060a064d89f505746a57f24ce0f22e89
   m_configObjects: {}
