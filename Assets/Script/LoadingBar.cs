@@ -28,7 +28,7 @@ public class LoadingBar : MonoBehaviour
         for (int i = 0; i < speedRunBar; i++)
         {
             value = i / speedRunBar;
-            loadingText.text = (value * 100f).ToString("f0") + "%";
+            loadingText.text = ((value * 100f) + 1).ToString("f0") + "%";
 
             yield return null;
         }
