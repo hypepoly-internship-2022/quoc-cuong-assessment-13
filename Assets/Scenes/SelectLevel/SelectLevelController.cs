@@ -11,4 +11,9 @@ public class SelectLevelController : Controller
     {
         return SELECTLEVEL_SCENE_NAME;
     }
+
+    public void OnLevelButtonTap()
+    {
+        Manager.Load(GameController.GAME_SCENE_NAME, "Game");
+    }
 }

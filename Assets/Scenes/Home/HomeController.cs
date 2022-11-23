@@ -21,4 +21,9 @@ public class HomeController : Controller
     {
         Manager.Add(SettingsPopupController.SETTINGSPOPUP_SCENE_NAME, "SettingsPopup");
     }
+
+    public void OnPlayButtonTap()
+    {
+        Manager.Add(SelectLevelController.SELECTLEVEL_SCENE_NAME, "SelectLevel");
+    }
 }

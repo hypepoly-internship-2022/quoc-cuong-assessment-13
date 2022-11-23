@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main/Main.unity
     guid: 952171d2113529249ab6f05a6433e079
   - enabled: 1
-    path: Assets/Scenes/PopupVote/PopupVote.unity
+    path: 
     guid: 060a064d89f505746a57f24ce0f22e89
   - enabled: 1
     path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
@@ -21,13 +21,13 @@ EditorBuildSettings:
     path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
     guid: 031c4da38af32e94fb2c728998d8c3c9
   - enabled: 1
-    path: Assets/Scenes/SettingPopup/SettingPopup.unity
+    path: 
     guid: 4e2e4c564046f114b87c818d22d08dc6
   - enabled: 1
     path: Assets/Scenes/VotePopup/VotePopup.unity
     guid: 81485e93d9b91eb47abbf9814753c541
   - enabled: 1
-    path: Assets/Scenes/SettingPopup/SettingPopup.unity
+    path: 
     guid: 4e2e4c564046f114b87c818d22d08dc6
   - enabled: 1
     path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelectLevel/SelectLevel.unity
     guid: f219238d2a0e0864fb76499989467d15
+  - enabled: 1
+    path: Assets/Scenes/Game/Game.unity
+    guid: db2b9a0c2f7ee5848b05ffff4d87e4d9
+  - enabled: 1
+    path: Assets/Scenes/PausePopup/PausePopup.unity
+    guid: 749ffd20beb1f1f49aa4203f73316706
+  - enabled: 1
+    path: Assets/Scenes/ScorePopup/ScorePopup.unity
+    guid: 7a9dc4de39d4682439036534184972c9
   m_configObjects: {}
