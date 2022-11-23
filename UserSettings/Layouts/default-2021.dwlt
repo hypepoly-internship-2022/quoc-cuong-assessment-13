@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 15
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -268,14 +268,14 @@ MonoBehaviour:
     y: 0
     width: 863.2
     height: 509.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 15}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,36 +317,36 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefab
+    - Assets/Scenes/Main
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefab
+  - Assets/Scenes/Main
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\unity3DProject\assessment\assessment12\quoc-cuong-assessment-12
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f05b0000
-    m_LastClickedID: 23536
-    m_ExpandedIDs: 00000000d05b0000d25b0000d45b0000d65b0000d85b0000da5b0000dc5b0000de5b0000e05b0000e25b0000e45b0000e65b0000e85b000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: 705c0000
+    m_LastClickedID: 23664
+    m_ExpandedIDs: 000000004a5c00004c5c00004e5c0000505c0000525c0000545c0000565c0000585c00005a5c00005c5c00005e5c0000605c0000625c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: ScorePopup
+      m_OriginalName: ScorePopup
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 62880
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d05b0000d25b0000d45b0000d65b0000d85b0000da5b0000dc5b0000de5b0000e05b0000e25b0000e45b0000e65b0000e85b0000
+    m_ExpandedIDs: 000000004a5c00004c5c00004e5c0000505c0000525c0000545c0000565c0000585c00005a5c00005c5c00005e5c0000605c0000625c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,9 +488,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d45e0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 3afefeff44fefeff48fefeff6074fffffc74ffff3a75ffff1e8ffffffebcffff88bdffff16c6ffffc4c8ffff82d6ffffacd6ffffccd7ffffecdfffff9ee1ffff5ce3ffffa0e3ffff70e5ffff32ebffff0cecffff5eedffff56f5ffff12f7ffff60f7ffffb0f7ffff38fbffff3a650000ca650000ce650000d8650000086700006c670000706700007a670000ca7b0000e47b0000007c00005a7c00005e7c0000687c0000207d0000847d0000887d0000927d00006c890000ec890000428a0000468a00008c8a0000a28a0000b88a0000bc8a0000c68a00001e9a00005a9a00005e9a0000689a0000729a0000889a00008e9a0000a89a0000b69a0000be9a0000cc9a0000d09a0000da9a000042a5000058a500005ea5000078a5000086a500008ca5000090a500009ea50000a2a50000aca50000
+      m_ExpandedIDs: 4cbafdff96bafdff22d6fdff38dbfdff82dbfdffc6dbfdff10dcfdff8edcfdff40defdff7edefdff88dffdffc8dffdff2209feffda09feffbc11feffd615feff4019feff681bfeffba1bfeff7e1cfefff41cfeffc81efeff121ffeff8c1ffeffe020feff6021feff9e21feff9422feffe622feffd823feff7627feff2029feff1c45feff264afefff04cfefff24cfeff1257feff285bfeffb05bfeffee5bfeff5e66feff6667feffa271feffc276feff787bfefffa7bfeff387cfeff207dfeffde7dfefff287feff6c8bfeff728dfeffbaa1feffeca3feff3cadfefff8b6feff8eb7feffdec0feff9acafefff2d3feff0edefeff5ee7feffa8e7feffc4f1feff14fbfeff94fbfeffd2fbfeff24fcfeff62fcfeffa0fcfeffe0fcfeff7afdfeffb8fdfeff0efefeffce01ffff9e0bffff200cffff760cffff1e0dffffa20dffffc20fffff0010fffff210ffff5412ffff101cfffff62fffffb832ffffb839ffff003bffff8e3cffff7c3dffff2842ffff7242ffffdc42ffffe643ffffec44ffff4045ffff3446ffff0c47ffff7a49ffffea49ffffda4effff944fffff0450ffff1c51fffffa51fffffc53ffffa254ffffe054ffff3255ffff0478ffff007dffff3e7dffff84a1ffff0eabffffe2abffff30beffff04bfffff54c8ffffb6d8ffff1cdaffff4cdaffff86dcfffffeddffff3cdeffff38fbfffff45a0000545b00005e5b0000385f0000ce5f0000d85f0000dc5f0000e65f0000826300001864000022640000266400003064000024690000686900006e69000080690000846900008e6900006a6a0000026b00000c6b0000106b00001a6b0000246b0000686b00006e6b0000806b0000846b00008e6b0000086d0000a06d0000aa6d0000ae6d0000b86d0000c26d0000066e00000c6e00001e6e0000226e00002c6e0000e47900007c7a0000867a00008a7a0000947a0000e48700008a8800008e88000098880000bc890000188a00001c8a0000268a0000cc8b00001a9000002e90000032900000569000005e90000054910000c8910000cc910000d691000038950000da950000de950000e89500008c970000a69700002e980000329800003c9800000099000014990000389900006c990000709900007a990000f6a4000066a5000070a50000bca70000d2a70000dea70000f0a7000008a8000018a8000030a800006ea80000daa80000dea80000e8a80000f2a8000048a90000c2a9000050aa000000ab000090ac00000aad0000cab30000c4c3000034c400003ec4000010c9000024c9000048c900007cc9000080c900008ac9000012ca00002eca000048ca000056ca00005cca000060ca00006eca000072ca00007cca0000d6d200000ed3000042d3000046d3000050d300005ad3000074d30000aed30000fcd3000000d400000ad4000042d50000aed50000b2d50000bcd50000ced50000e4d50000e8d5000004d600000cd6000032d6000036d6000040d600000cdb000078db00007cdb000086db000004e200001ee200003ae2000094e2000098e20000a2e20000ace20000c2e20000c6e2000028e300002ce3000036e3000090e80000e4e80000eee80000f2e80000fce80000e0e90000e6e90000eae900004cea000050ea00005aea0000acf60000c2f60000c6f60000daf60000e2f60000eaf6000010f7000014f700001ef70000a4f70000aaf70000aef70000daf7000010f8000014f800001ef8000018f900005cf9000062f9000066f9000074f9000078f9000082f90000a8fa0000bcfa0000e2fa000016fb00001afb000024fb00002efb000070fb00007afb00007efb000088fb0000f6fb0000fcfb00000afc00000efc000032fc000036fc000040fc0000a0fc0000a6fc00000cfd000010fd00001afd000024fd00002afd00002efd000052fd000078fd00007cfd000086fd0000fcfd000040fe000046fe00004afe000058fe00005cfe000066fe000070fe00008afe000000ff000004ff00000eff0000c0ff0000d6ff00002400010028000100320001003c00010042000100460001005a000100620001006a00010090000100940001009e00010004020100760201008002010056120100c2120100c6120100d0120100601301006613010074130100781301009c130100a0130100aa1301003e230100802301008a2301008e23010098230100f823010034240100682401006c2401007624010080240100fa240100a4260100c0260100e8260100ee260100f226010000270100042701000e270100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 691.4235, y: 855.3678, z: -10.529651}
+    m_Target: {x: 278.39066, y: -121.403145, z: -7.5678477}
     speed: 2
-    m_Value: {x: 691.4235, y: 855.3678, z: -10.529651}
+    m_Value: {x: 278.39066, y: -121.403145, z: -7.5678477}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -825,9 +825,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1343.5438
+    m_Target: 915.29443
     speed: 2
-    m_Value: 1343.5438
+    m_Value: 915.29443
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -845,7 +845,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.45769918, y: 0.113847926, z: 0.059289444, w: 0.87983686}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -911,7 +911,7 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
   m_SerializedViewValues:
-  - D:\unity3DProject\assessment\assessment12\quoc-cuong-assessment-12\Library\PlayModeViewStates\6107b4d16eb5c8341a8ab8abb4ecb3fe
+  - D:\unity3DProject\assessment\assessment12\quoc-cuong-assessment-12\Library\PlayModeViewStates\ce37709c76a6bda459ed5de19b44aad2
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
