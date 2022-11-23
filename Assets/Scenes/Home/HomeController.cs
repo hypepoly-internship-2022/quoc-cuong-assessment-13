@@ -14,6 +14,11 @@ public class HomeController : Controller
 
     public void OnVoteButtonTap()
     {
-        Manager.Add(PopupVoteController.POPUPVOTE_SCENE_NAME, "PopupVote");
+        Manager.Add(VotePopupController.VOTEPOPUP_SCENE_NAME, "VotePopup");
+    }
+
+    public void OnSettingsButtonTap()
+    {
+        Manager.Add(SettingsPopupController.SETTINGSPOPUP_SCENE_NAME, "SettingsPopup");
     }
 }

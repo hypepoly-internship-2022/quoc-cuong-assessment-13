@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using SS.View;
 
-public class PopupVoteController : Controller
+public class VotePopupController : Controller
 {
-    public const string POPUPVOTE_SCENE_NAME = "PopupVote";
+    public const string VOTEPOPUP_SCENE_NAME = "VotePopup";
 
     public override string SceneName()
     {
-        return POPUPVOTE_SCENE_NAME;
+        return VOTEPOPUP_SCENE_NAME;
     }
 }

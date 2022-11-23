@@ -14,4 +14,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PopupVote/PopupVote.unity
     guid: 060a064d89f505746a57f24ce0f22e89
+  - enabled: 1
+    path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
+    guid: 031c4da38af32e94fb2c728998d8c3c9
+  - enabled: 1
+    path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
+    guid: 031c4da38af32e94fb2c728998d8c3c9
+  - enabled: 1
+    path: Assets/Scenes/SettingPopup/SettingPopup.unity
+    guid: 4e2e4c564046f114b87c818d22d08dc6
+  - enabled: 1
+    path: Assets/Scenes/VotePopup/VotePopup.unity
+    guid: 81485e93d9b91eb47abbf9814753c541
+  - enabled: 1
+    path: Assets/Scenes/SettingPopup/SettingPopup.unity
+    guid: 4e2e4c564046f114b87c818d22d08dc6
+  - enabled: 1
+    path: Assets/Scenes/SettingsPopup/SettingsPopup.unity
+    guid: 031c4da38af32e94fb2c728998d8c3c9
+  - enabled: 1
+    path: Assets/Scenes/VotePopup/VotePopup.unity
+    guid: 81485e93d9b91eb47abbf9814753c541
+  - enabled: 1
+    path: Assets/Scenes/SelectLevel/SelectLevel.unity
+    guid: f219238d2a0e0864fb76499989467d15
   m_configObjects: {}
