@@ -24,6 +24,6 @@ public class HomeController : Controller
 
     public void OnPlayButtonTap()
     {
-        Manager.Add(SelectLevelController.SELECTLEVEL_SCENE_NAME, "SelectLevel");
+        Manager.Load(GameController.GAME_SCENE_NAME, "Game");
     }
 }
