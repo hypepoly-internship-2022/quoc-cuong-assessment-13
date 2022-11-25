@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using SS.View;
+using System;
 
 public class HomeController : Controller
 {
-
-    SaveManager saveManager;
-
     public const string HOME_SCENE_NAME = "Home";
 
     public override string SceneName()
@@ -27,6 +25,15 @@ public class HomeController : Controller
 
     public void OnPlayButtonTap()
     {
-        Manager.Load(GameController.GAME_SCENE_NAME, "Game");
+        if(Int32.Parse(GameMgr.getInstance().lifeSave) <= 0)
+        {
+            Manager.Add(AdsPopupController.ADSPOPUP_SCENE_NAME, "AdsPopup");
+        }
+        else
+        {
+            int lifeCount = Int32.Parse(GameMgr.getInstance().lifeSave) - 1;
+            GameMgr.getInstance().SaveLife(lifeCount.ToString());
+            Manager.Load(GameController.GAME_SCENE_NAME, "Game");
+        }
     }
 }

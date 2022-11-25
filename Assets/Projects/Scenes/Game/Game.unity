@@ -1595,8 +1595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timeText: {fileID: 1429458489}
   time: 100
-  playerController: {fileID: 0}
-  enemyMovement: {fileID: 0}
+  heartText: {fileID: 972263719}
 --- !u!114 &1429458489
 MonoBehaviour:
   m_ObjectHideFlags: 0

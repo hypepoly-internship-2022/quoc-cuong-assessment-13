@@ -8,17 +8,20 @@ public class GameUI : MonoBehaviour
 
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private float time;
-    [SerializeField] private PlayerController playerController;
-    [SerializeField] private EnemyMovement enemyMovement;
-
+    [SerializeField] private TextMeshProUGUI heartText;
+    
+    private PlayerController playerController;
+    private EnemyMovement enemyMovement;
     private int minutes;
     private int seconds;
 
     // Start is called before the first frame update
     void Start()
     {
-       playerController = FindObjectOfType<PlayerController>();
-       enemyMovement = FindObjectOfType<EnemyMovement>();
+        playerController = FindObjectOfType<PlayerController>();
+        enemyMovement = FindObjectOfType<EnemyMovement>();
+        GameMgr.getInstance().LoadSaveLife(); 
+        heartText.GetComponent<TextMeshProUGUI>().text = GameMgr.getInstance().lifeSave;
     }
 
     // Update is called once per frame

@@ -2,45 +2,46 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SaveManager : MonoBehaviour
+public class GameMgr : MonoBehaviour
 {
 
-    private static SaveManager instance;
+    private static GameMgr instance;
 
-    public static SaveManager getInstance()
+    public static GameMgr getInstance()
     {
         if (instance is null)
         {
-            instance = new SaveManager();
+            instance = new GameMgr();
         }
         return instance;
     }
 
-    private const string SAVE_ENERGY = "LIFE";
-    private int liveSave;
-
-
-    // Start is called before the first frame update
-    private void Start()
-    {
-
-    }
+    private const string SAVE_LIFE = "LIFE";
+    public string lifeSave;
 
     protected virtual string GetSaveLife()
     {
-        return SaveManager.SAVE_ENERGY;
+        return GameMgr.SAVE_LIFE;
     }
 
     public virtual void LoadSaveLife()
     {
-        liveSave = PlayerPrefs.GetInt(this.GetSaveLife());
-        Debug.Log($"LoadSaveGame: " + liveSave);
+        if(PlayerPrefs.GetString(this.GetSaveLife()) == "")
+        {
+            PlayerPrefs.SetString(this.GetSaveLife(), "3");
+            lifeSave = PlayerPrefs.GetString(this.GetSaveLife());
+        }
+        else
+        {
+            lifeSave = PlayerPrefs.GetString(this.GetSaveLife());
+        }
+
+        Debug.Log(lifeSave);
     }
 
-    public virtual void SaveLife()
+    public virtual void SaveLife(string life)
     {
         Debug.Log($"SaveGame");
-        liveSave -= liveSave;
-        PlayerPrefs.SetInt(this.GetSaveLife(), liveSave);
+        PlayerPrefs.SetString(this.GetSaveLife(), life);
     }
 }
