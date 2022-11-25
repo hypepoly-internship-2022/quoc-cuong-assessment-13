@@ -29,12 +29,12 @@ public class ScorePopupUI : MonoBehaviour
 
     private void showStar()
     {
-        // Debug.Log(PlayerController.getInstance().isWon);
-        // if(PlayerController.getInstance().isWon == true)
-        // {
+        if(GameMgr.getInstance().winLose == true)
+        {
             star1.color = Color.white;
             star2.color = Color.white;
             star3.color = Color.white;
-        // }
+            GameMgr.getInstance().winLose = false;
+        }
     }
 }

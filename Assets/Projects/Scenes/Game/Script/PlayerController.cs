@@ -31,6 +31,7 @@ public class PlayerController : GamePlayControl
     {
         if(collisionInfo.collider.name == "Wall (1)")
         {   
+            GameMgr.getInstance().winLose = true;
             isWon = true;
         } 
         else 

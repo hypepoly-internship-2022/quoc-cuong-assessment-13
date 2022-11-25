@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameMgr : MonoBehaviour
 {
+    public bool winLose;
 
     private static GameMgr instance;
 
