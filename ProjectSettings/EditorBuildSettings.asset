@@ -30,9 +30,6 @@ EditorBuildSettings:
     path: Assets/Projects/Scenes/VotePopup/VotePopup.unity
     guid: 81485e93d9b91eb47abbf9814753c541
   - enabled: 1
-    path: Assets/Projects/Scenes/SelectLevel/SelectLevel.unity
-    guid: f219238d2a0e0864fb76499989467d15
-  - enabled: 1
     path: Assets/Projects/Scenes/Game/Game.unity
     guid: db2b9a0c2f7ee5848b05ffff4d87e4d9
   - enabled: 1

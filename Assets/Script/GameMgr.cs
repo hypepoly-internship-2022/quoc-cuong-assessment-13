@@ -35,8 +35,6 @@ public class GameMgr : MonoBehaviour
         {
             lifeSave = PlayerPrefs.GetString(this.GetSaveLife());
         }
-
-        Debug.Log(lifeSave);
     }
 
     public virtual void SaveLife(string life)
