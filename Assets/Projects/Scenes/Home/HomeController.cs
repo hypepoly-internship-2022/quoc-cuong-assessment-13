@@ -5,6 +5,9 @@ using SS.View;
 
 public class HomeController : Controller
 {
+
+    SaveManager saveManager;
+
     public const string HOME_SCENE_NAME = "Home";
 
     public override string SceneName()

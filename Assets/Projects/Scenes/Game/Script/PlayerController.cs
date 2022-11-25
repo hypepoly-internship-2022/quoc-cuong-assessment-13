@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : GameMgr
+public class PlayerController : GamePlayControl
 {
 
     [SerializeField] private GameObject containPlayer;

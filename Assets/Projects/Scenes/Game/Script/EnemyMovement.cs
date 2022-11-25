@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement : GameMgr
+public class EnemyMovement : GamePlayControl
 {
     [SerializeField] private float speedUWant;
     [SerializeField] private Material[] material;
