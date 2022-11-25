@@ -5,27 +5,25 @@ using UnityEngine;
 public class SaveManager : MonoBehaviour
 {
 
-    public static SaveManager instance {get; private set;}
+    private static SaveManager instance;
+
+    public static SaveManager getInstance()
+    {
+        if (instance is null)
+        {
+            instance = new SaveManager();
+        }
+        return instance;
+    }
 
     private const string SAVE_ENERGY = "LIFE";
     private int liveSave;
 
-    /// <summary>
-    /// Awake is called when the script instance is being loaded.
-    /// </summary>
-    private void Awake()
-    {
-        if(SaveManager.instance != null)
-        {
-            Debug.Log($"Only 1 SaveManager allow");
-            SaveManager.instance = this;
-        }
-    }
 
     // Start is called before the first frame update
     private void Start()
     {
-        this.LoadSaveLife();
+
     }
 
     protected virtual string GetSaveLife()
