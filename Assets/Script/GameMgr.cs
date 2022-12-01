@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class GameMgr : MonoBehaviour
 {
+
     public bool winLose;
+    public string lifeSave;
+    public bool isPaused;
+
+    private const string SAVE_LIFE = "LIFE";
 
     private static GameMgr instance;
 
@@ -16,9 +21,6 @@ public class GameMgr : MonoBehaviour
         }
         return instance;
     }
-
-    private const string SAVE_LIFE = "LIFE";
-    public string lifeSave;
 
     protected virtual string GetSaveLife()
     {

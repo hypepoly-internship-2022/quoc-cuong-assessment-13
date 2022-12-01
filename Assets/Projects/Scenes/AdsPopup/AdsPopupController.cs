@@ -15,7 +15,7 @@ public class AdsPopupController : Controller
 
     public void OnYButtonTap()
     {
-        int lifeCount = Int32.Parse(GameMgr.getInstance().lifeSave) + 3;
+        int lifeCount = Int32.Parse(GameMgr.getInstance().lifeSave) + 5;
         GameMgr.getInstance().SaveLife(lifeCount.ToString());
         StartCoroutine(LoadingToHome());
     }

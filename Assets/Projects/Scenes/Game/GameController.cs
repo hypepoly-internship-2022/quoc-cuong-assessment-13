@@ -12,8 +12,9 @@ public class GameController : Controller
         return GAME_SCENE_NAME;
     }
 
-    public void OnSettingsButtonTap()
+    public void OnPauseButtonTap()
     {
+        GameMgr.getInstance().isPaused = true;
         Manager.Add(PausePopupController.PAUSEPOPUP_SCENE_NAME, "PausePopup");
     }
 

@@ -30,8 +30,12 @@ public class GameUI : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        showTextTime();
+    {   
+        if(GameMgr.getInstance().isPaused == false)
+        {
+            showTextTime();
+        }
+
         checkWin();
         showPopup();
     }

@@ -520,7 +520,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "B\u1EA1n kh\xF4ng \u0111\u1EE7 tim, xem qu\u1EA3ng c\xE1o \u0111\u1EC3
-    l\u1EA5y 3 tim"
+    l\u1EA5y 5 tim"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

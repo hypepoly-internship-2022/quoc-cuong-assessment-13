@@ -21,7 +21,14 @@ public class GamePlayControl : MonoBehaviour
 
     protected void MoveTarget(float x, float y, float z)
     {
-        rigidBody.velocity = new Vector3(x, y, z);
+        if(GameMgr.getInstance().isPaused == true)
+        {
+            rigidBody.velocity = new Vector3(0, 0, 0);
+        }
+        else
+        {
+            rigidBody.velocity = new Vector3(x, y, z);
+        }
     }
 
     protected void PlayAni(){

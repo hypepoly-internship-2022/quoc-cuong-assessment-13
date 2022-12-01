@@ -12,8 +12,15 @@ public class PausePopupController : Controller
         return PAUSEPOPUP_SCENE_NAME;
     }
 
+    public void OnResumeButtonTap()
+    {
+        GameMgr.getInstance().isPaused = false;
+        Manager.Close();
+    }
+
     public void OnQuitButtonTap()
     {
+        GameMgr.getInstance().isPaused = false;
         StartCoroutine(LoadingToHome());
     }
 
